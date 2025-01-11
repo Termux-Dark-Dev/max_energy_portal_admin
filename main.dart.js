@@ -105835,7 +105835,7 @@ var $async$qH=A.V(function(c,d){if(c===1){o=d
 s=p}while(true)switch(s){case 0:p=4
 k=t.N
 s=7
-return A.P(A.aOr(A.cY("http://127.0.0.1:8081/api/v1/auth/login",0,null),B.aA.Ab(A.ax(["email",a,"password",b,"role","Admin"],k,k),null),A.ax(["Content-Type","application/json"],k,k)),$async$qH)
+return A.P(A.aOr(A.cY("http://147.93.96.19:8081/api/v1/auth/login",0,null),B.aA.Ab(A.ax(["email",a,"password",b,"role","Admin"],k,k),null),A.ax(["Content-Type","application/json"],k,k)),$async$qH)
 case 7:n=d
 k=n
 m=B.aA.ts(0,A.Sv(J.av(A.Sl(k.e).c.a,"charset")).dj(0,k.w),null)
@@ -105976,7 +105976,7 @@ aDU(a,b,c,d,e,f,g,h,i){var s=0,r=A.U(t.Sn),q,p=2,o,n,m,l,k,j
 var $async$G0=A.V(function(a0,a1){if(a0===1){o=a1
 s=p}while(true)switch(s){case 0:p=4
 s=7
-return A.P(new A.z2().nA("http://127.0.0.1:8081/api/v1/auth/register",A.ax(["name",f,"email",e,"password",g,"phone_number",h,"role",i,"allowed_master_distributor_creation",b,"allowed_distributor_creation",a,"allowed_retailer_creation",c,"allowed_channel_partner_creation",0],t.N,t.z),d),$async$G0)
+return A.P(new A.z2().nA("http://147.93.96.19:8081/api/v1/auth/register",A.ax(["name",f,"email",e,"password",g,"phone_number",h,"role",i,"allowed_master_distributor_creation",b,"allowed_distributor_creation",a,"allowed_retailer_creation",c,"allowed_channel_partner_creation",0],t.N,t.z),d),$async$G0)
 case 7:n=a1
 l=n
 m=B.aA.ts(0,A.Sv(J.av(A.Sl(l.e).c.a,"charset")).dj(0,l.w),null)
@@ -106312,7 +106312,7 @@ aFf(a){var s=0,r=A.U(t.er),q,p=2,o,n,m,l,k,j
 var $async$Gp=A.V(function(b,c){if(b===1){o=c
 s=p}while(true)switch(s){case 0:p=4
 s=7
-return A.P(new A.z2().pc(0,"http://127.0.0.1:8081/api/v1/admin/dashboard",a),$async$Gp)
+return A.P(new A.z2().pc(0,"http://147.93.96.19:8081/api/v1/admin/dashboard",a),$async$Gp)
 case 7:n=c
 l=n
 m=B.aA.ts(0,A.Sv(J.av(A.Sl(l.e).c.a,"charset")).dj(0,l.w),null)
@@ -106394,7 +106394,7 @@ A.aFW.prototype={
 $2(a,b){var s,r,q,p=null,o="Loading...",n=this.a,m=n.a,l=m||n.d==null
 n=n.d
 s=n!=null
-if(!s||m)r="http://127.0.0.1:8081/uploads/place_holder.png"
+if(!s||m)r="http://147.93.96.19:8081/uploads/place_holder.png"
 else{n.toString
 r="http://192.168.0.100:8081"+A.h(J.av(J.av(n,b),"icon"))}if(!s||m)q=o
 else{n.toString
@@ -106814,7 +106814,7 @@ aFe(a,b){var s=0,r=A.U(t.er),q,p=2,o,n,m,l,k,j
 var $async$Go=A.V(function(c,d){if(c===1){o=d
 s=p}while(true)switch(s){case 0:p=4
 s=7
-return A.P(new A.z2().nA("http://127.0.0.1:8081/api/v1/admin/view-agents",A.ax(["role",b],t.N,t.z),a),$async$Go)
+return A.P(new A.z2().nA("http://147.93.96.19:8081/api/v1/admin/view-agents",A.ax(["role",b],t.N,t.z),a),$async$Go)
 case 7:n=d
 l=n
 m=B.aA.ts(0,A.Sv(J.av(A.Sl(l.e).c.a,"charset")).dj(0,l.w),null)
@@ -106844,7 +106844,7 @@ aLA(a,b){var s=0,r=A.U(t.Sn),q,p=2,o,n,m,l,k,j
 var $async$r4=A.V(function(c,d){if(c===1){o=d
 s=p}while(true)switch(s){case 0:p=4
 s=7
-return A.P(new A.z2().nA("http://127.0.0.1:8081/api/v1/admin/edit-agents",b,a),$async$r4)
+return A.P(new A.z2().nA("http://147.93.96.19:8081/api/v1/admin/edit-agents",b,a),$async$r4)
 case 7:n=d
 l=n
 m=B.aA.ts(0,A.Sv(J.av(A.Sl(l.e).c.a,"charset")).dj(0,l.w),null)
@@ -107147,7 +107147,7 @@ if(l==null){p.pE(a)
 s=1
 break}o=t.N
 s=5
-return A.P(A.aOr(A.cY("http://127.0.0.1:8081/api/v1/refresh-token",0,null),B.aA.Ab(A.ax(["refresh_token",l],o,o),null),A.ax(["Authorization","Bearer "+A.h(k),"Content-Type","application/json"],o,o)),$async$pK)
+return A.P(A.aOr(A.cY("http://147.93.96.19:8081/api/v1/refresh-token",0,null),B.aA.Ab(A.ax(["refresh_token",l],o,o),null),A.ax(["Authorization","Bearer "+A.h(k),"Content-Type","application/json"],o,o)),$async$pK)
 case 5:n=c
 s=n.b===200?6:8
 break
